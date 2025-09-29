@@ -1,5 +1,0 @@
-I couldn't figure out how to configure multi-arch builds in Docker Hub's
-automated builds, so I built this manually. Updates should be pushed the same
-way:
-
-docker buildx build --platform linux/arm64,linux/amd64 --tag kargoglobal/awscli:v2 --push .
