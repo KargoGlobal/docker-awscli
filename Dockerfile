@@ -1,4 +1,4 @@
-FROM debian:buster AS production
+FROM debian:trixie AS production
 ARG TARGETARCH
 
 RUN apt-get -qq update && \
